@@ -17,3 +17,6 @@ unsupported: true
 **Update 6 June 2021:** The Geeni Surge Mini is now being sold with the incompatible Tuya WB3S chip.
 
 It is possible to successfully desolder this chip from the daughterboard (e.g. with a heat gun) and replace it with an ESP-12F to continue using the template on this page.
+
+Can confirm. Transplant of the WB3S module with an ESP12-F will use the above template and will function correctly.
+Note: the pads are VERY cheap on this build. Desolder with a gentle hand. Removal is relatively easy (6 screws on bottom, 2 retainer screws for 120 line coming in, 2 screws holding in control board. WB3S is vertically mounted on a daughter board that needs removal to gain access to the WB3S module for removal/replacement)
